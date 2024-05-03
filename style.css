@@ -50,3 +50,7 @@ form input.form{
 form input.equal{
     background-color: rgb(84, 196, 227);
 }
+form input{
+    background-color: #383735;
+    color: white;
+}
