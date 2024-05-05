@@ -19,12 +19,12 @@
 }
 .calculator form input{
     border: 0;
-    outline: 0;
+    outline:0;
     width: 60px;
     height: 60px;
     border-radius: 10px;
     font-size: 20px;
-    box-shadow:6px 6px #42413f;
+    box-shadow:inset 5px 5px #42413f, inset -8px -8px #42413f;
     cursor: pointer;
     margin: 10px;
 
@@ -44,14 +44,14 @@ form .display input{
 form input.c{
     width: 145px;
     background-color: red;
-    box-shadow:6px 6px rgb(168, 28, 28);
+    box-shadow: inset 5px 5px rgb(168, 28, 28), inset -8px -8px rgb(168, 28, 28);
 }
 form input.form{
     background-color: rgb(191, 215, 151);
 }
 form input.equal{
     background-color: rgb(84, 196, 227);
-    box-shadow:6px 6px rgb(65, 130, 205);
+    box-shadow:inset 5px 5px rgb(65, 130, 205), inset -8px -8px rgb(65, 130, 205);;
 }
 form input{
     background-color: #383735;
